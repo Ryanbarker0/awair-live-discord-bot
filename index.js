@@ -1,6 +1,7 @@
 require('dotenv').config();
 const embedBuilder = require('./src/embedBuilder')
 const fetchAirData = require('./src/fetchAirData')
+
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
